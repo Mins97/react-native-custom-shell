@@ -2,10 +2,12 @@ react-native-custom-shell
 # 사용자 맞춤으로 만든 쉘 스크립트 파일 모음입니다.
 # 리액트 네이티브 새 프로젝트 생성
 ```
-sh starter.sh
+sh starter.sh # 테스트 프로젝트 생성
+sh new_project.sh # 새 프로젝트 생성
+sh new_project.sh && sh starter.sh # 둘 다 생성
 ```
 ```
-new_project.sh
+
 ```
 starter는 테스트용 리액트네이티브 프로젝트(빠른 시작)이고,
 new_project는 새 프로젝트입니다.
