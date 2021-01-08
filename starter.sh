@@ -1,12 +1,3 @@
-react-native-custom-shell
-# 사용자 맞춤으로 만든 쉘 스크립트 파일 모음입니다.
-# 리액트 네이티브 새 프로젝트 생성
-```
-sh starter.sh
-```
-
-### sh starter.sh 내용
-```
 ROOT=~/Desktop
 AppName=myNewApp
 MacName=mac
@@ -21,4 +12,3 @@ cd .. &&
 export ANDROID_SDK=/Users/$MacName/Library/Android/sdk &&
 echo 'export PATH=/Users/$MacName/Library/Android/sdk/platform-tools:/Users/mac/.nvm/versions/node/v12.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mac/.nvm/versions/node/v12.13.0/bin:/Users/mac/.rvm/bin' >>~/.bash_profile &&
 source ~/.bash_profile
-```
